@@ -1,9 +1,20 @@
+
 public class Bicycle {
 
-    public String modelName;
-    public int wheelsCount;
+    private final String modelName;
+    private final int wheelsCount;
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
+    public Bicycle(String modelName, int wheelsCount) {
+        this.modelName = modelName;
+        this.wheelsCount = wheelsCount;
     }
+
+    public String getModelName() {
+        return modelName;
+    }
+
+    public int getWheelsCount() {
+        return wheelsCount;
+    }
+
 }
