@@ -1,5 +1,6 @@
 public class ServiceStation {
-    public void check (Maintanable maintanable) {
+    public void service (Maintanable maintanable) {
+
         maintanable.service();
     }
 

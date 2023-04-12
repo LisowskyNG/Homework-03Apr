@@ -11,7 +11,7 @@ public class Main {
                 };
         ServiceStation station = new ServiceStation();
         for (Maintanable maintanable : maintanables) {
-            station.check(maintanable);
+            station.service(maintanable);
         }
-    };
+    }
 }
